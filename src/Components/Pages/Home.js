@@ -39,7 +39,7 @@ const Home  = () => {
   </thead>
   <tbody>
     {
-    	users((user,index) => (
+    	users.map((user,index) => (
     	 <tr>
     	 <th scope="row">{index + 1}</th>
                 <td>{user.name}</td>
